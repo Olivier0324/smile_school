@@ -177,3 +177,38 @@ nav ul a {
 .tutorials{
     padding: 90px 0;
 }
+.tutorials h2 {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 100%;
+    letter-spacing: 0px;
+    text-align: center;
+   margin-bottom: 40px;
+  }
+  .tutorials h2 span {
+    color: #c271ff;
+  }
+  .tutorial__container{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 20px;
+  }
+  .tutorial__card-image-preview{
+    position: relative;
+  }
+  .tutorial__card-image-preview .play-img{
+    position: absolute;
+    z-index: 10;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+  }
+  .tutorial__card h3{
+    
+  }
+  .tutorial__card p{
+
+  }
+  .tutorial__card div{
+
+  }
